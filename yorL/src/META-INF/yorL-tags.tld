@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+  <description><![CDATA["YorL Tags by Niladri Roy"]]></description>
+  <display-name>"YorL Tags"</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>y</short-name>
+  <uri>/yorL-tags</uri>
+  <tag>
+    <description><![CDATA[Render Scripts/Resources for an webpage]]></description>
+    <name>yorL</name>
+    <tag-class>com.yor.yorL.taglib.YorLTag</tag-class>
+    <body-content>JSP</body-content>
+    
+    <attribute>
+      <description><![CDATA[The resources to include in your page, use format <resource-type>.<resource.key>; e.g; js.jquery]]></description>
+      <name>resources</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[Preset profile to include in your page]]></description>
+      <name>profile</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute> 
+    
+   <!--  <dynamic-attributes>false</dynamic-attributes> -->
+  </tag>
+  
+</taglib>
