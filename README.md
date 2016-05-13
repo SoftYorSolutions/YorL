@@ -87,9 +87,9 @@ The template of the config should be valid JSON and is explained below,
 }
 ```
 Where, 
- - **resource-** : Any key to designate the resource. The key has to be unique inside that resource-type (i.e. js/css)
- - **resource url** : The URL for the resource, could be from CDN, or packaged in web application
- - **resource version** : Version of the resource, change this whenever there is a change in the said resource file. If you forget to change this, the browser will not download the latest resource.
+ - **resource-key** : Any key to designate the resource. The key has to be unique inside that resource-type (i.e. js/css)
+ - **resource-url** : The URL for the resource, could be from CDN, or packaged in web application
+ - **resource-version** : Version of the resource, change this whenever there is a change in the said resource file. If you forget to change this, the browser will not download the latest resource.
  - **globalConfig/dev** : Switch ON the DEV mode, default is false. 
    If turned ON, this will generate different version in each request for all resources in all the pages.
    If turned OFF, this will NOT generate different version in each request for all resources in all the pages.
