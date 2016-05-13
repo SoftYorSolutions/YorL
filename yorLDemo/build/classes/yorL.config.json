@@ -1,0 +1,40 @@
+{
+  "resourceConfig": {
+    "js": {
+      "jquery": {
+        "url": "https://code.jquery.com/jquery-2.2.3.min.js",
+        "version": "1.4.3"
+      },
+      "jquery-ui": {
+        "url": "https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js",
+        "version": "1.4.2"
+      },
+       "ibar": {
+        "url": "js/yor.iBAR.js",
+        "version": "3.2"
+      }
+    },
+    "css": {
+      "jq-theme": {
+        "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
+        "version": "4.3"
+      },
+      "style": {
+        "url": "css/style.css",
+        "version": "1.4.2"
+      },
+      "main": {
+        "url": "https://code.getmdl.io/1.1.3/material.indigo-pink.min.css",
+        "version": "1.4.2"
+      }
+    }
+  },
+  "globalConfig" : {
+    "dev" : true,
+    "param" : "w"
+  },
+  "profiles":{
+  	"mtl" : ["js.ibar","css.jq-theme"],
+  	"rtl" : ["css.main"]
+  }
+}
