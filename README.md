@@ -103,4 +103,5 @@ Example/Demo
 * Visit `http://<host>:<port>/yorLDemo`
 * View the source of the HTML, by right clicking > "view source"
 * The generated and included scripts according to the tag lib seen.
-* TO change the configuration, change the  **yorL.config.json** under src.
+* T0 change the configuration, change the  **yorL.config.json** under src.
+* Also the standalone version can be run to see the same output. **YorLStandAloneDemo.java** under src/demo 
