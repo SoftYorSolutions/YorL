@@ -2,8 +2,7 @@ YorL
 =======
 A Java based component to manage your Web Resources (js,css) in your JEE Applicaitions. Also incliudes versioning of the Resources. Simple, Robust, Integrated, loosely coupled, light weight.
 
-To get started, checkout examples and documentation at
-https://github.com/SoftYorSolutions/yorL
+To get started, checkout from [here] (https://github.com/SoftYorSolutions/yorL)
 
 Use cases
 ---------
@@ -28,9 +27,9 @@ Third Party Jar Dependencies
 
 Usage
 -----
-* Download the latest **yorL_XXX.jar** from https://github.com/SoftYorSolutions/YorL/tree/master/yorL/dist
+* Download the latest **yorL_XXX.jar** from [here] (https://github.com/SoftYorSolutions/YorL/tree/master/yorL/dist)
 * Place the **yorL_XXX.jar** in WEB-INF/lib (do not forget to place the dependent jars mentioned above)
-* Download the sample **yorL.config.json** from https://github.com/SoftYorSolutions/YorL/blob/master/yorL/config/
+* Download the sample **yorL.config.json** from [here] (https://github.com/SoftYorSolutions/YorL/blob/master/yorL/config/)
 * Place the **yorL.config.json** in the root of your web classpath, i.e., src/yorL.config.json
 * Change the **yorL.config.json** according to the documentation below.
 * Open any jsp where the component to be used 
@@ -97,3 +96,11 @@ Where,
    If ommitted, there will be no versioning. 
 
 
+Example/Demo
+------------
+* Checkout the Demo project from [here] (https://github.com/SoftYorSolutions/YorL/tree/master/yorLDemo)
+* Build & Deploy in any app server, 
+* Visit `http://<host>:<port>/yorLDemo`
+* View the source of the HTML, by right clicking > "view source"
+* The generated and included scripts according to the tag lib seen.
+* TO change the configuration, change the  **yorL.config.json** under src.
