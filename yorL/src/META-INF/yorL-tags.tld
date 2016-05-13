@@ -22,6 +22,12 @@
       <name>profile</name>
       <required>false</required>
       <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[Overrirde the Dev Mode (true/false)]]></description>
+      <name>dev</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
     </attribute> 
     
    <!--  <dynamic-attributes>false</dynamic-attributes> -->

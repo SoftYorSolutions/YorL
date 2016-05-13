@@ -11,8 +11,18 @@ public class YorLTag extends TagSupport{
 	
 	private String profile;
 	private String resources;
+	private String dev;
+
 	
-	
+
+	public String getDev() {
+		return dev;
+	}
+
+	public void setDev(String dev) {
+		this.dev = dev;
+	}
+
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out= pageContext.getOut();
@@ -32,6 +42,7 @@ public class YorLTag extends TagSupport{
 			TagAttributes attrs = new TagAttributes();
 			attrs.setResources(resources); //"purofaltu,Js.jquery, css.style,css.faltu ,js.jquery-ui");
 			attrs.setProfile(profile) ;//"mtl");
+			attrs.setDev(dev);
 			String html = th.build(attrs);
 			System.out.println(html);
 			out.println(html);
