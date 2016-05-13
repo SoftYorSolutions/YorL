@@ -1,4 +1,4 @@
-{
+{ 
   "resourceConfig": {
     "js": {
       "jquery": {
@@ -31,7 +31,7 @@
   },
   "globalConfig" : {
     "dev" : true,
-    "param" : "v"
+    "param" : "ver"
   },
   "profiles":{
   	"mtl" : ["js.ibar","css.jq-theme"],
