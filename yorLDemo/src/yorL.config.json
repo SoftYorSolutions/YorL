@@ -20,7 +20,7 @@
   },
   "globalConfig" : {
   //  "dev" : true,
-    "param" : "w"
+    "param" : "v"
   },
   "profiles":{
   	"myJSP1Profile" : ["js.jquery","css.style","not.valid"]
