@@ -24,7 +24,7 @@
       <rtexprvalue>true</rtexprvalue>
     </attribute>
     <attribute>
-      <description><![CDATA[Overrirde the Dev Mode (true/false)]]></description>
+      <description><![CDATA[Override the Dev Mode (true/false)]]></description>
       <name>dev</name>
       <required>false</required>
       <rtexprvalue>false</rtexprvalue>

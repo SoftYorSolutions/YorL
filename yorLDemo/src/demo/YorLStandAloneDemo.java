@@ -20,15 +20,15 @@ public class YorLStandAloneDemo {
 		long start =  System.currentTimeMillis();
 		TagHandler th = TagHandler.getInstance();
 		TagAttributes attrs = new TagAttributes();
-		attrs.setResources("purofaltu,Js.jquery, css.style,css.faltu ,js.jquery-ui");
-		attrs.setProfile("mtl");
+		attrs.setResources("notvalid,css.main");
+		attrs.setProfile("myJSP1Profile");
 		TagUtil.d(logger, "\nFinal HTML output : \n" + th.build(attrs));
 		TagUtil.d(logger, "YorLStandAloneDemo Test Run[1]" +  (System.currentTimeMillis()-start));
 		
 		for(int i=0; i<20 ; i++){
 			start =  System.currentTimeMillis();
-			attrs.setResources("purofaltu,Js.jquery, css.style,css.faltu ,js.jquery-ui");
-			attrs.setProfile("rtl");
+			attrs.setResources("css.main,css.notvalid");
+			attrs.setProfile("myJSP1Profile");
 			//System.out.println(th.build(attrs));
 			TagUtil.d(logger, "YorLStandAloneDemo Test Run[" + (i+2) + "]" +  (System.currentTimeMillis()-start));
 		}
