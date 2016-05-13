@@ -30,7 +30,7 @@
     }
   },
   "globalConfig" : {
-    "dev" : true,
+  //  "dev" : true,
     "param" : "w"
   },
   "profiles":{

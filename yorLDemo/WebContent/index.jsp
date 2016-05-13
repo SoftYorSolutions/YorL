@@ -1,6 +1,7 @@
 <%@ taglib prefix="y" uri="/yorL-tags"%>
 
 [
-<y:yorL  resources="purofaltu,Js.jquery, css.style,css.faltu ,js.jquery-ui" ></y:yorL>
+<y:yorL profile="mtl" dev="true"   ></y:yorL>
+<y:yorL profile="rtl"   ></y:yorL>
 ]
 
